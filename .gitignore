@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Dataset
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Training logs / local artifacts (keep metrics.json & plots in repo if desired)
+# models/*.pt is large; track deliberately if needed
+*.egg-info/
+
+# Large weights (reproduce with train.py)
+models/*.pt
+.idea/
